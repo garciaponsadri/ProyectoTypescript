@@ -1,0 +1,23 @@
+{
+  "name": "nueva",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "./dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.1"
+  },
+  "dependencies": {
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.3"
+  },
+  "description": ""
+}
