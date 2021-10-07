@@ -1,3 +1,5 @@
+import { fail } from 'assert'
+import { parse } from 'path/posix'
 import readline from 'readline'
 let readlineI: readline.Interface
 
@@ -14,8 +16,7 @@ let leelinea = (prompt: string) => {
     })
 }
 export let leerTeclado = async (prompt: string) => {
-    let valor: string
-    valor = await leelinea(prompt)
-    readlineI.close()
-    return valor
+    let entrada = await leelinea(prompt)
+    readlineI.close() 
+    return entrada
 }
