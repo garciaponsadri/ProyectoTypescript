@@ -16,17 +16,17 @@ _Fecha: 08/10/2021_
            > Práctica_Typescript.pdf
       
      -> src:
-           -> util                    // Este directorio contiene los archivos typescript que forman el proyecto excepto el index
-                > calculos.ts         // Este archivo contiene gran parte del código y funciones que utilizaremos en el proyecto
-                > entradaTeclado.ts   // Este archivo contiene la función de "leerTeclado" que utilizamos a lo largo de todo el proyecto
-            > index.ts                // Este archivo Typescript es el principal ya que su código será lo que primero se inicie al ejecutar el proyecto (Una vez esté compilado a .js)
+           -> util                    // Este directorio contiene los archivos typescript que forman el proyecto excepto el index.
+                > calculos.ts         // Este archivo contiene gran parte del código y funciones que utilizaremos en el proyecto.
+                > entradaTeclado.ts   // Este archivo contiene la función de "leerTeclado" que utilizamos a lo largo de todo el proyecto.
+            > index.ts                // Este archivo Typescript es el principal ya que su código será lo que primero se inicie al ejecutar el proyecto (Una vez esté compilado a .js).
             
       > .gitignore                    // Archivo que permite que se ignoren los directorios/archivos que estén escritos en él al subirse el repositorio.
-      > package-lock.json             // Archivo de configuración de Typescript
-      > package.json                  // Archivo de configuración de Typescript 
-      > tsconfig.json                 // Archivo de configuración de Typescript
+      > package-lock.json             // Registro de la fuente y versión de cada uno de los paquetes instalados con npm.
+      > package.json                  // Archivo utilizado para definir los paquetes que forman las dependencias del proyecto. 
+      > tsconfig.json                 // Archivo de configuración de Typescript.
       
-      x Node-Modules                  // Este directorio no ha sido subido por estar incluido en el .gitignore
-      x dist                          // Este directorio no ha sido subido por estar incluido en el .gitignore
+      x Node-Modules                  // Este directorio no ha sido subido por estar incluido en el .gitignore.
+      x dist                          // Este directorio no ha sido subido por estar incluido en el .gitignore.
           
       > README.md
